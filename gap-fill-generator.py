@@ -111,13 +111,6 @@ def page_contact():
     if st.button("previous"):
         st.session_state.page = "Next"
 
-
-
-
-
-
-
-
 if "page" not in st.session_state:
     st.session_state.page = "Home"
 
